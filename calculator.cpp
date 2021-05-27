@@ -1,3 +1,5 @@
+//This is a c++ calculator program.
+
 #include<iostream>
 using namespace std;
 
@@ -11,7 +13,7 @@ int main()
 		cin >> num1 >> num2;
 		cout << endl;
 		
-		cout <<"Enter an operator--> (+, -, *, /) or (X) to quit : ";
+		cout <<"Enter an operator--> (+, -, *, /) or (X) to exit : ";
 		cin >> ch;
 		cout << endl;
 		
