@@ -11,7 +11,7 @@ int main()
 		cin >> num1 >> num2;
 		cout << endl;
 		
-		cout <<"Enter an operator--> (+, -, *, /) or (X) to quit : ";
+		cout <<"Enter an operator--> (+, -, *, /, %) or (X) to quit : ";
 		cin >> ch;
 		cout << endl;
 		
@@ -36,6 +36,11 @@ int main()
 				
 			case '/':
 				res = num1 / num2;
+				cout << "Result = " << res << endl;
+				break;
+			
+			case '%':
+				res = num1 % num2;
 				cout << "Result = " << res << endl;
 				break;
 				
