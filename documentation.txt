@@ -1,0 +1,2 @@
+This is the documentation of the files in this repo. This repo consists of a html, css and a js file.
+All rights are reserved to the author.
