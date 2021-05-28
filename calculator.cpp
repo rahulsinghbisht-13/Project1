@@ -13,7 +13,7 @@ int main()
 		cin >> num1 >> num2;
 		cout << endl;
 		
-		cout <<"Enter an operator--> (+, -, *, /) or (X) to exit : ";
+		cout <<"Enter an operator--> (+, -, *, /, %) or (X) to exit : ";
 		cin >> ch;
 		cout << endl;
 		
