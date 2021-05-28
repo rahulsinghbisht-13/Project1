@@ -40,6 +40,11 @@ int main()
 				res = num1 / num2;
 				cout << "Result = " << res << endl;
 				break;
+			
+			case '%':
+				res = num1 % num2;
+				cout << "Result = " << res << endl;
+				break;
 				
 			case 'X':
 				break;
