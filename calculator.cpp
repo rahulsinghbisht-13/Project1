@@ -37,10 +37,19 @@ int main()
 				break;
 				
 			case '/':
-				res = num1 / num2;
-				cout << "Result = " << res << endl;
-				break;
+				if(num2 != 0)
+				{
+					res = num1 / num2;
+					cout << "Result = " << res << endl;
+					break;
+				}
+				else
+				{
+					cout << "CANNOT DIVIDE BY ZERO!!! PLEASER ENTER A NON-ZERO NUMBER FOR 2nd NUMBER INPUT.";
+					break;
+				}
 			
+			// It is for calculating modulus.
 			case '%':
 				res = num1 % num2;
 				cout << "Result = " << res << endl;
